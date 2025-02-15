@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)) , url("assets/images/Blue\ Orange\ and\ White\ Simple\ Modern\ Minimalist\ Circle\ Travel\ Agency\ Presentation.jpg");
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Caveat', cursive;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.register a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #2D336B;
+}
+
+.register a:hover {
+  background-color: white;
+  color: #2D336B;
+}
+
+.menu a:hover {
+  background-color: #2D336B;
+  color: white;
+}
